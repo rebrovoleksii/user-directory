@@ -1,0 +1,12 @@
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+### JetBrains
+.idea/
+
+### SQLite
+app/instance/

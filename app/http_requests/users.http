@@ -1,0 +1,15 @@
+### GET request to example server
+GET http://127.0.0.1:5000/users
+X-Organization-Id: org_01JHGPVFWC15D3J6ET68FTABDX
+
+### Create a new user
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+X-Organization-Id: org_01JHGPVFWC15D3J6ET68FTABDX
+
+{
+    "first_name": "Davi",
+    "last_name": "Jones2",
+    "email": "davi.jones@example4.com",
+    "role": "member"
+}
